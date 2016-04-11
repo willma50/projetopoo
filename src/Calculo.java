@@ -38,7 +38,7 @@ public class Calculo {
 			System.out.println("\nMédia aritmética é: "+df.format(soma/n));
 
 		System.out.println("Fim de programa!");		
-		//teste nada
+		//teste nada com nada
 	}
 
 }
