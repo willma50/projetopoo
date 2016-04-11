@@ -11,18 +11,18 @@ public class Calculo {
 		Scanner s;
 		s = new Scanner(System.in);
 
-		System.out.println("Informe um Número inteiro entre 1 e 1000.");
+		System.out.println("Informe um NÃºmero inteiro entre 1 e 1000.");
 		n = s.nextInt(); 			
 		
 		while( n<2 || n>999){
-			System.out.println("Informe o número corretamente!");
+			System.out.println("Informe o nÃºmero corretamente!");
 			n = s.nextInt(); 			
 		}		
 		
-		System.out.println("Agora informe " +n+ " um Número(s) inteiro(s).");		
+		System.out.println("Agora informe " +n+ " um NÃºmero(s) inteiro(s).");		
 		
 		while(i<n){				
-			System.out.println("Informe o "+ (i+1) +" número. ");
+			System.out.println("Informe o "+ (i+1) +" nÃºmero. ");
 			nNumero = s.nextInt(); 			
 			soma+=nNumero;				
 			i++;
@@ -35,10 +35,10 @@ public class Calculo {
 		if( soma > 2147483647 || soma < -2147483648 )		
 			System.out.println( "Soma fora do range");			
 		else
-			System.out.println("\nMédia aritmética é: "+df.format(soma/n));
+			System.out.println("\nMÃ©dia aritmÃ©tica Ã©: "+df.format(soma/n));
 
 		System.out.println("Fim de programa!");		
-		
+		//teste
 	}
 
 }
